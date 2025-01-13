@@ -1,1 +1,18 @@
 /* Global Styles */
+
+body {
+	height: 100vh;
+	font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow';
+	font-size: 1rem;
+	background-color: antiquewhite;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 3px auto;
+}
+img {
+	width: 700px;
+	border-radius: 3%;
+}
