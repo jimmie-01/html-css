@@ -36,9 +36,29 @@ body {
 	border-radius: 3px;
 }
 
+.author__headings h2, .author__headings h3 {
+	text-align: center;
+}
+
+.author__headings h2 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.author__headings{
+	margin: 5px 0 40px 0;
+}
+
+.author {
+	text-align: center;
+}
+
 .author img {
-	width: 700px;
-	margin: 20px auto;
+	display: inline-block;
+	max-height: 528px;
+  	filter: drop-shadow(0px 44px 34px rgba(0, 0, 0, 0.25));
+  	overflow: hidden;
+	border-radius: 10%;
 }
 
 
