@@ -21,6 +21,7 @@ body {
 
 .main nav a {
 	text-decoration: none;
+	font-weight: 600;
 	color: white;
 }
 
@@ -32,12 +33,13 @@ body {
 }
 
 .main li:hover {
-	background: rgb(87, 83, 83);
+	background: rgb(135, 153, 148);
 	border-radius: 3px;
 }
 
 .author__headings h2, .author__headings h3 {
 	text-align: center;
+	color: rgb(33, 37, 35);
 }
 
 .author__headings h2 {
@@ -61,4 +63,12 @@ body {
 	border-radius: 10%;
 }
 
+.btn {
+	width: 120px;
+	height: 40px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: white;
+	background: rgb(61, 60, 60);
+}
 
